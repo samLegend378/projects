@@ -1,0 +1,31 @@
+✅ AWS Security Task 01 – Enabling MFA and Creating IAM User
+
+As part of my Cloud Security learning journey, I completed the following foundational AWS security steps:
+🔐 Task Summary:
+
+    Enabled Multi-Factor Authentication (MFA) on the AWS root user account
+
+    Created a new IAM user with administrator privileges
+
+    Stored root credentials securely and will only use the root user when absolutely necessary
+
+🧠 Why This Matters:
+
+    MFA helps protect against unauthorized access even if credentials are compromised
+
+    IAM users allow for principle of least privilege and safer management of AWS resources
+
+    This is the first step in following AWS security best practices before building and deploying anything in the cloud
+
+🌱 Next Step:
+
+I'll continue securing my AWS environment and begin practical cloud security projects, including:
+
+    IAM policy design
+
+    S3 bucket security
+
+    GuardDuty configuration
+
+    VPC network segmentation
+
