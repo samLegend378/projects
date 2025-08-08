@@ -1,0 +1,20 @@
+# AWS Static Website Hosting with S3
+
+## 📌 Project Overview
+This project demonstrates hosting a static website using **Amazon S3** under the AWS Free Tier.  
+It was my first hands-on AWS project after earning my **AWS Certified Cloud Practitioner (CLF-C02)** certification.  
+
+## 🛠️ Steps Performed
+1. Created an S3 bucket with public access for website hosting.
+2. Uploaded an `index.html` file.
+3. Configured bucket permissions and bucket policy for public read access.
+4. Enabled static website hosting and obtained the **S3 website endpoint**.
+
+## 🌐 Website Link
+http://naija-cyberwatch-site.s3-website.eu-north-1.amazonaws.com
+
+
+## 🧰 Tools & Services
+- Amazon S3
+- AWS Management Console
+- HTML/CSS
