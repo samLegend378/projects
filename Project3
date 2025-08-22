@@ -1,0 +1,36 @@
+# 🚀 AWS EC2 Lab - Launching & Connecting to an Instance
+
+This project demonstrates how to launch, connect, and manage an **Amazon EC2 (Elastic Compute Cloud)** instance in the AWS Free Tier. It’s part of my hands-on AWS learning journey.
+
+---
+
+## 📌 Objectives
+- Launch an **EC2 instance** using the AWS Management Console.
+- Generate and use an **SSH key pair** for secure login.
+- Connect to the EC2 instance from a local terminal.
+- Understand how EC2 acts as a virtual server in the cloud.
+
+---
+
+## 🛠️ Steps
+
+### 1️⃣ Launch EC2 Instance
+1. Open the AWS Console → **EC2 Dashboard**.
+2. Click **Launch Instance**.
+3. Configure:
+   - **Name**: `MyEC2Lab`
+   - **AMI (Amazon Machine Image)**: `Amazon Linux 2023 (Free Tier Eligible)`
+   - **Instance Type**: `t2.micro`
+   - **Key Pair**: Create new or use existing (e.g., `ec2-key.pem`)
+   - **Security Group**: Allow **SSH (22)** from your IP.
+4. Click **Launch**.
+
+---
+
+### 2️⃣ Connect to EC2 Instance
+1. From **Instances → Running Instances**, select your instance.
+2. Click **Connect** → **SSH Client**.
+3. AWS will give you a command like:
+
+   ```bash
+   ssh -i "ec2-key.pem" ec2-user@<Public-IP>
